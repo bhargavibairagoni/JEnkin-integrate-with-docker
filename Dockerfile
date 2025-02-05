@@ -1,3 +1,4 @@
 FROM httpd
-MAINTAINER name Bhargavi
-COPY index.html /usr/local/apache2/htdocs
+MAINTAINER Bhargavi
+COPY index.html /usr/local/apache2/htdocs/
+CMD ["httpd-foreground"]
